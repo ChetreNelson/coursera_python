@@ -19,9 +19,10 @@ we no need to explicitly define the close function to close the file while using
 ---    
 ## Writing on a file
 
-we can use to type of method on writing on a file
-1. *** w *** *this will create new file or clear the content and re-write onto the file*
-2. *** a *** *this will write into the existing file without removing the existing content* 
+We can use two types of modes to write to a file:
+- `w` – This creates a new file or clears the existing content and rewrites the file.
+- `a` – This writes to an existing file without removing the current content.
+
 
 1. ### using *w* method
    ```
