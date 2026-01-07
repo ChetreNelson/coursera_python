@@ -41,17 +41,18 @@ select = [0, 2]
 arr = np.linspace(-2, 2, num=5)
 # print(arr)
 
-x = np.linspace(0, 2*np.pi, num=100)
-y = np.sin(x)
+# x = np.linspace(0, 2*np.pi, num=100)
+# y = np.sin(x)
 # plt.plot(x, y)
+# plt.show()
 
 # can print as list as well
 # for x in arr:
 #     print(x)
 
 # various mathematical operation
-arr1 = np.array([1, 2, 3])
-arr2 = np.array([4, 5, 6])
-print(np.add(arr1, arr2))
-print(np.subtract(arr1, arr2))
-print(np.multiply(arr1, arr2))
+# arr1 = np.array([1, 2, 3])
+# arr2 = np.array([4, 5, 6])
+# print(np.add(arr1, arr2))
+# print(np.subtract(arr1, arr2))
+# print(np.multiply(arr1, arr2))
